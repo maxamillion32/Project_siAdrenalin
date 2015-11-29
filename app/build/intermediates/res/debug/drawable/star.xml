@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_checked="false" android:drawable="@drawable/zvezdaoff" />
+  <item android:state_checked="true" android:drawable="@drawable/zvezdaon" />
+</selector>
+<!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/src/main/res/drawable/star.xml -->

@@ -1,0 +1,82 @@
+Ob zagonu se pojavi glavni meni, kjer je tudi možnost izbire jezika med Slovenščino, Angleščino ter Nemščino. Vsi podatki o destinacijah tj. ime, opis itd. so zaenkrat le 
+v Slovenščini.
+
+SEZNAM:
+Ob kliku na prvo postavko menija, se odpre prvi nivo seznama, kjer izbiramo med posameznimi kategorijami športov/destinacij. Pri tem se pomikamo nivojsko, v vsakem nivoju
+imamo možnost vrnitve na prejšnji nivo ali z tipko nazaj(back) ali z klikom na ikono aplikacije v zgornjem levem kotu. Z klikom na željeno kategorijo
+se postavimo na drugi nivo seznama, kjer imamo podane vse predstavnike izbrane kategorije skupaj z logotipom, nazivom in naslovom destinacije.
+Ob izbiri željene destinacije preidemo v tretji nivo, kjer se nahajajo vse informacije o izbrani destinaciji kot so: galerija slik, slika zemljevida z lokacijo, opis, kontakt, adrenalin-o meter, cenik, 
+odpiralni čas in ocene.
+
+DETAJLI O DESTINACIJI:
+Vsaka destinacija ima podane vse potrebne informacije za uspešnen obisk. Vsaka destinacija je predstavljena z:
+ 
+ Sliko destinacije
+ 
+ Hitrim menijem za kontakt
+	- Od leve proti desni: 
+		- Facebook ikona, delite izbrano destinacijo na družabno omrežje Facebook.
+		- Ikona telefona, ob kliku na ikono se kopira telefonska številka kontakta za destinacijo.
+		- Ikona ognja, ogenj skozi celotno aplikacijo predstavlja simbol za priljubljene. Ob kliku na ogenj, se ta prižge, kar simbolizira, da je destinacija 
+		  dodana k priljubljenim.
+		- Ikona pisma, ob kliku na ikono pisma, se odpre privzeta aplikacija za pošiljanje elektronske pošte z že vnešenim naslovom kontakta informacij o izbrani destinaciji
+		- Twitter ikona, delite izbrano destinacijo na družabno omrežje Twitter.
+ 
+ Zemljevid z lokacijo
+ 
+ Opis izbrane destinacije
+ 
+ Tabela z prikazom odpiralnega časa
+ 
+ Tabela z prikazom cenika destinacije, vse cene so v € (EUR)
+ 
+ Adrenalin-o meter
+	- Števec prikazuje lastno oceno destinacije kako razburljiva oz. zahtevna je destinacija za obisk. Pri tem večja vrednost pomeni bolj zahtevno. Vrednost 0 (nič) pomeni, da za destinacijo še ni na voljo ocene.
+	
+ Tabela ocen
+	Ob kliku na ocene imamo možnost podati svojo oceno izbrane destinacije. Pri tem ocenjujemo: kako primerna je destinacija za družine in otroke,
+	kako zabaven je obisk, kako urejeno okolico ima destinacija ter kako se nam zdijo cene oz. stroški obiska. Vse ocene predstavljene z številkami od 0 do 5, pri čem pomeni 0 najnižjo in 5 najvišjo oceno.
+	Pri tem je z ene naprave možno oddati samo en glas in za vsako destinacijo enkrat.
+	
+ZEMLJEVID:
+Ob kliku na gumb "Zemljevid" v glavnem meniju se nam odpre zemljevid z vsemi destinacijami ne glede na kategorijo oz. razdaljo. Ob tem imamo v zgornjem delu ekrana
+podaniva izbirniva seznama "Start" in "Cilj", preko kateriva si izberemo začetno ter ciljno destinacijo. Potem, ko smo si izbrali start in cilj se ob kliku na gumb "Potrdi"
+izračuna ter izriše najkrajša pot med izbranima destinacijama. Pozor: pot se računa brez omejitev tj. lahko nekatere poti vsebujejo plačljive ceste (npr. avtocesto). 
+Ob izrisani poti se nam prikažejo informacije o razdalji ter času vožnje. V primeru, da pot prekriva oblaček z informacijami, lahko le tega premaknemo s poti 
+z dotikom in premikanjem prsta.
+Zatem se gumb "Potrdi" spremeni v "Počisti". Ob kliku na gumb "Počisti" se vrnemo v prvotno stanje zemljevida.
+Ob kliku na značko na zemljevidu se odprejo informacije z nazivom ter prikaz ali je destinacija med priljubljenimi. Prav tako se na informacijskem meniju
+pokaže IKONA s pomočjo katere se postavimo na detajliranje informacije o destinaciji.
+
+V BLIŽINI:
+Ob izbiri postavke "V bližini", se nam odpre zemljevid, kjer imamo okrog naše trenutne lokacije narisan modro prozorem krog. Polmer kroga predstavlja zračno razdaljo
+od trenutne lokacije. Tako lahko preko drsnika, ki se nahaja na dnu zaslona nastavljamo željeno razdaljo v kilometrih. Aplikacija nam ob tem prikazuje samo destinacije, ki so
+znotraj željene razdalje.
+Ob preklopu gumba "Zračna razdalja", se zemljevid skupaj s krogom počisti. Sedaj je aplikacija v načinu, kjer več ne računamo zračne razdalje, ampak realne
+razdalje potovanja s avtomobilom. Sedaj seveda ne moremo več gledati polmera od trenutne lokacije, zato krog izgine in se nam pojavljajo samo destinacije, ki ustrezajo
+nastavitvi drsnika.
+Ob kliku na posamezno destinacijo se nam v primeru vklopljene zračne razdalje izpiše zračna razdalja od trenutne lokacije do izbrane. V primeru izklopljene zračne
+destinacije se nam izpiše dejanska razdalja s avtomobilom, ter potreben čas.
+
+PRILJUBLJENE:
+V primeru, da se nam katera od destinacij zdi posebno zanimiva, si jo lahko preko klika na simbol ognja shranimo med priljubljene. Potem si lahko preko gumba v glavnem meniju "Priljubljene", ogledamo
+vse priljublejene destinacije. 
+
+O SIADRENALIN:
+Opcija oSiadrenalin nam odpre uporabniška navodila z vsemi informacijami za popolno upravljanje z aplikacijo. Ob tem imamo v zgornjem desnem kotu ikono megafona, ki nam ob kliku odpre
+zaslon za kontakt. V zaslonu za kontakt najprej izberemo kategorijo kontakta. Ali smo uporabnik aplikacije, in želimo sporočiti napako, navdušenje ali razočaranje, ali pa smo lastnik
+destinacije s adrenalinsko ponudbo v Sloveniji in želimo zahtevati objavo, odstranitev oz. spremembo podatkov.
+
+DELI NA FACEBOOK
+Preko celotne aplikacije imamo možnost deljenja določenih prednastavljenih statusov na družabno omrežje Facebook.
+
+DELI NA TWITTER:
+Ob želji deljenja veselja/žalosti nad aplikacijo na družabno omrežje Twitter. Imamo možnost izbire postavke "Deli na Twitter" kjer nam pojavno okno 
+pove kaj točno bo deljeno. Nakar aplikacija ob kliku na "Potrdi" odpre uradno Twitter aplikacijo v kolikor je nameščena, v primeru, da ni nameščene
+uradne aplikacije se izbere najbolj primerna aplikacija za objavo na Twitter.
+
+OPOMBE:
+Informacije predstavljene v aplikaciji so zgolj informativne narave. Avtor aplikacije ne odgovarja za morebitno nastalo škodo ob nepravilnih informacijah.
+Aplikacija za nekatere funkcije kot so: zemljevid, računanje poti, ocenjevanje itd. uporablja podatkovni prenos.
+
+

@@ -1,0 +1,49 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:background="#FFFFFF"
+    android:gravity="right">
+
+    <LinearLayout
+        android:id="@+id/layout_razdalja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ic_action_location"/>
+
+        <TextView
+            android:id="@+id/text_razdalja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="\?"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_avto"
+        android:layout_below="@+id/layout_razdalja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ic_action_car"/>
+
+        <TextView
+            android:id="@+id/text_potAvto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="\?"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

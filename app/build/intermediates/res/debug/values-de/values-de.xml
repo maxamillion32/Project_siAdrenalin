@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string-array name="cilj_destinacije_array">
+        <item>Ziel</item>
+    </string-array>
+    <string-array name="spinner_kontakt_lastnik">
+        <item>Betreff...</item>
+        <item>Veröffentlichungs Antrag</item>
+        <item>Lösch Antrag</item>
+        <item>Änderungs Antrag</item>
+        <item>Sonstiges</item>
+    </string-array>
+    <string-array name="spinner_kontakt_uporabnik">
+        <item>Betreff...</item>
+        <item>Bug meldung</item>
+        <item>Verbesserungsvorschlag</item>
+        <item>Sonstiges</item>
+    </string-array>
+    <string-array name="start_destinacije_array">
+        <item>Start</item>
+        <item>Mein Standort</item>
+        <item>Murska Sobota</item>
+        <item>Ptuj</item>
+        <item>Maribor</item>
+        <item>Celje</item>
+        <item>Novo Mesto</item>
+        <item>Ljubljana</item>
+        <item>Koper</item>
+    </string-array>
+    <string name="OsiAdrenalin">Über siAdrenalin</string>
+    <string name="_enski">Weiblich</string>
+    <!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-de/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="adrenalin_o_meter">Adrenalin-O meter</string>
+    <string name="app_name">siAdrenalin</string>
+    <string name="blizina">In der Nähe</string>
+    <string name="cas">Dauer</string>
+    <string name="cene">Preise</string>
+    <!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-de/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Für eine App ist die Aktualisierung der Android Wear App erforderlich."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Diese App funktioniert erst nach der Aktualisierung der Android Wear App."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear aktualisieren"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play-Dienste aktivieren"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Diese App funktioniert nur, wenn Sie die Google Play-Dienste aktivieren."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Angefordert von <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play-Dienste installieren"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Telefon nicht installiert sind."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Das angegebene Konto ist auf diesem Gerät nicht vorhanden. Bitte wählen Sie ein anderes Konto aus."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ungültiges Konto"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"App erfordert die Aktivierung der Google Play-Dienste"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Um eine Verbindung zu den Google Play-Diensten herzustellen, ist eine Datenverbindung erforderlich."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Netzwerkfehler"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"App erfordert die Installation der Google Play-Dienste"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"App erfordert ein Update der Google Play-Dienste"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Fehler beim Anmelden im angegebenen Konto. Bitte wählen Sie ein anderes Konto aus."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Anmeldung fehlgeschlagen"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Unbekanntes Problem mit Google Play-Diensten"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Google Play-Dienste, auf denen einige Ihrer Apps basieren, werden von diesem Gerät nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-Dienste"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Diese App wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Auf Telefon öffnen"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Diese App erfordert einen oder mehrere Google Play-Dienste, die derzeit nicht verfügbar sind. Bitte wenden Sie sich an den Entwickler, um Unterstützung zu erhalten."</string>
+    <!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="dodPriljubljenim">Den Favoriten Hinzugefügt</string>
+    <string name="dokoncevanje">Abschluss</string>
+    <string name="druzine">Famillie</string>
+    <string name="e_mail_">e-Mail:</string>
+    <string name="english_languague">English languague</string>
+    <string name="facebookMsg">Ich Erlebe Slowenien von der Adrenalin geladenen Seite mit der Android app siAdrenalin!</string>
+    <string name="facebook_share">Auf Facebook Teilen</string>
+    <string name="geslo_">Passwort:</string>
+    <string name="gumb_email">gumb email</string>
+    <string name="gumb_lastnik">Inhaber </string>
+    <string name="gumb_poklici">gumb poklici</string>
+    <string name="gumb_user">Benutzer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ime_">Name:</string>
+    <string name="izrRazdalj_msg">Berechnung der realen Strecke erfordert die Verwendung der Datenübertragung!</string>
+    <string name="izrRazdalj_title">Berechnung der realen Entfernungen - Warnung</string>
+    <string name="kalkulacija_poti">Routen Berechnung</string>
+    <string name="karta">Karte anzeigen</string>
+    <string name="kontakt_title">Kontakt</string>
+    <string name="kuponi">Kuponi</string>
+    <string name="lastnik_msg">Ich bin der Besitzer einer Reise Destination mit dem Angebot von Adrenalinsportarten, und sende</string>
+    <string name="meterMsg">Eigene Bewertung des Ortes, wie Adrenalin geladen ein Besuch ist</string>
+    <string name="mo_ki">Männlich</string>
+    <string name="moja_lokacija">Mein Standort</string>
+    <string name="nalagam_">Lade</string>
+    <string name="noData">Fehler beim ersten Start - keine Internetverbindung.\nSchalten sie die Datenübertragung ein und starten sie die App noch einmal!</string>
+    <string name="oceni">Bewerte</string>
+    <string name="oceni_des">Bewerte das Angebot</string>
+    <string name="oddGlas">Sie haben bereits abgestimmt!</string>
+    <string name="odsPriljubljenim">Aus den Favoriten entfernt</string>
+    <string name="off_gps">GPS muss eingeschaltet sein!</string>
+    <string name="off_internet">Keine Internetverbindung!</string>
+    <string name="playServiceMsg">Google Play ist nicht aktualisiert, ohne werden die Landkarten in der app nicht funktionieren!</string>
+    <string name="pocisti">Löschen</string>
+    <string name="ponovite_geslo_">Passwort wiederholen:</string>
+    <string name="poslji">Senden</string>
+    <string name="potrdi">Bestätigen</string>
+    <string name="pozor">Warnung</string>
+    <string name="preklic">Abbrechen</string>
+    <string name="pridobivanje_pod">Daten abruf</string>
+    <string name="priimek">Nachname</string>
+    <string name="prijava">Anmeldung</string>
+    <string name="prijava_">Einloggen!</string>
+    <string name="prikazne_slike">Thumbnail</string>
+    <string name="priljubljene">Favoriten</string>
+    <string name="programInfo">Version 1.0 \n Entwickelt als Diplom arbeit auf FERI Maribor \n Autor: Mitja Toplak \n Telefon: 041 894 788 \n Facebook: mitjatoplak \n eMail: toplak.mitja@gmail.com</string>
+    <string name="programInfoTitle">Informationen</string>
+    <string name="razdalja">Entfernung</string>
+    <string name="registracija">Registrierung</string>
+    <string name="registriraj_se_">Registrier dich!</string>
+    <string name="seznam">Liste anzeigen</string>
+    <string name="seznam_aktivnosti">Aktivitäten</string>
+    <string name="seznam_lokacij">Standorte</string>
+    <string name="slovenski_jezik">Slowenisch</string>
+    <string name="spin">Wählen</string>
+    <string name="spol">Geschlecht</string>
+    <string name="starost_">Alter:</string>
+    <string name="telKopiran">In die Zwischenablage kopiert </string>
+    <string name="titleCenik">Preise</string>
+    <string name="titleOcene">Ocene</string>
+    <string name="titleOdpCas">Öffnungszeiten</string>
+    <string name="titleOpis">Beschreibung</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="twitterMsg">Ich Erlebe Slowenien von der Adrenalin geladenen Seite mit der Android app siAdrenalin!</string>
+    <string name="twitterSportMsg">Ein tolles adrenalin Erlebniss in</string>
+    <string name="twitter_share">Auf Twitter Teilen</string>
+    <string name="uporabnik_msg">Ich bin ein Benutzer der Anwendung und möchte</string>
+    <string name="uporabnisko_ime_">"Benutzername: "</string>
+    <string name="urejenost">Sauberkeit</string>
+    <string name="zabava">Unterhaltung</string>
+    <string name="zemljevid">Landkarte</string>
+    <string name="zracna_dst">Luftlinie</string>
+</resources>

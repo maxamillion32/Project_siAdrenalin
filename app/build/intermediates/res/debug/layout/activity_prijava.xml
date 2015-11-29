@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp" >
+    	
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/uporabnisko_ime_"/>
+    
+	<EditText
+	    android:id="@+id/text_uporabnisko"
+    	android:layout_width="150dp"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:inputType="text" />
+	
+	<TextView 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/geslo_"/>
+
+	<EditText
+	    android:id="@+id/text_geslo"
+    	android:layout_width="150dp"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:inputType="textPassword" />
+
+	<Button
+	    android:id="@+id/gumb_potrdiPrijavo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/prijava_" />
+
+	<TextView
+	    android:id="@+id/textView1" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/registriraj_se_"
+	    android:textAppearance="?android:attr/textAppearanceSmall"
+	    android:clickable="true"
+	    android:onClick="odpriRegistracijo" />
+	
+</LinearLayout>
+<!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/src/main/res/layout/activity_prijava.xml -->

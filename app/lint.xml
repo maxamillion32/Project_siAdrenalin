@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="TypographyEllipsis">
+        <ignore path="res/values-de/strings.xml" />
+        <ignore path="res/values-en/strings.xml" />
+        <ignore path="res/values/strings.xml" />
+    </issue>
+</lint>

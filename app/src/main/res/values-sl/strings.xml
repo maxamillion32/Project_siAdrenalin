@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">siAdrenalin</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="gumb_email">gumb email</string>
+    <string name="gumb_poklici">gumb poklici</string>
+    <string name="seznam">Seznam</string>
+    <string name="karta">Karta</string>
+    <string name="prijava">Prijava</string>
+    <string name="spin">Izberite</string>
+    <string name="starost_">Starost:</string>
+    <string name="potrdi">Potrdi</string>
+    <string name="e_mail_">e-Mail:</string>
+    <string name="ponovite_geslo_">Ponovite geslo:</string>
+    <string name="geslo_">Geslo:</string>
+    <string name="ime_">Ime:</string>
+    <string name="adrenalin_o_meter">Adrenalin-O meter</string>
+    <string name="english_languague">English languague</string>
+    <string name="deutsch">Nemščina</string>
+    <string name="slovenski_jezik">Slovenski_jezik</string>
+    <string name="seznam_aktivnosti">Seznam aktivnosti</string>
+    <string name="seznam_lokacij">Seznam lokacij</string>
+    <string name="zemljevid">Zemljevid</string>
+    <string name="nalagam_">Nalagam</string>
+    <string name="blizina">V bližini</string>
+
+    <string-array name="start_destinacije_array">
+        <item>Start</item>
+        <item>Trenutna lokacija</item>
+        <item>Murska Sobota</item>
+        <item>Ptuj</item>
+        <item>Maribor</item>
+        <item>Celje</item>
+        <item>Novo Mesto</item>
+        <item>Ljubljana</item>
+        <item>Koper</item>
+    </string-array>
+
+    <string-array name="cilj_destinacije_array">
+        <item>Cilj</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/facebook_logo</item>
+        <item>@drawable/facebook_logo</item>
+        <item>@drawable/facebook_logo</item>
+        <item>@drawable/facebook_logo</item>
+        <item>@drawable/facebook_logo</item>
+        <item>@drawable/twitter_logo</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="kuponi">Kuponi</string>
+    <string name="_enski">Ženski</string>
+
+    <!-- Spinner elementi za kontakt uporabnika -->
+    <string-array name="spinner_kontakt_uporabnik">
+        <item>Zadeva...</item>
+        <item>Prijavi napako</item>
+        <item>Predlog izboljšave</item>
+        <item>Drugo</item>
+    </string-array>
+
+    <!-- Spinner elementi za kontakt lastnika destinacije -->
+    <string-array name="spinner_kontakt_lastnik">
+        <item>Zadeva...</item>
+        <item>Zahteva za objavo</item>
+        <item>Zahteva za izbris</item>
+        <item>Zahteva za spremembo</item>
+        <item>Drugo</item>
+    </string-array>
+    <string name="cene">Cene</string>
+    <string name="dokoncevanje">Dokončevanje</string>
+    <string name="druzine">Družina</string>
+    <string name="gumb_user">Uporabnik</string>
+    <string name="izrRazdalj_msg">Računanje realnih poti zahteva uporabo podatkovnega prenosa!</string>
+    <string name="izrRazdalj_title">Izračun realnih razdalj do destinacij - opozorilo</string>
+    <string name="kalkulacija_poti">Kalkulacija poti</string>
+    <string name="lastnik_msg">Sem lastnik destinacije s ponudbo adrenalinskih športov in bi želel poslati</string>
+    <string name="mo_ki">Moški</string>
+    <string name="moja_lokacija">Moja lokacija</string>
+    <string name="oceni">Oceni</string>
+    <string name="oceni_des">Oceni</string>
+    <string name="off_internet">Ni internetne povezave!</string>
+    <string name="pocisti">Počisti</string>
+    <string name="preklic">Prekliči</string>
+    <string name="priimek">Priimek</string>
+    <string name="prijava_">Prijava!</string>
+    <string name="prikazne_slike">Thumbnail</string>
+    <string name="programInfo">Verzija 2015-v1.0 \n Izdelano v okviru diplomske naloge na FERI Maribor \n Avtor: Mitja Toplak \n Telefon: 041 894 788 \n Facebook: mitjatoplak \n eMail: toplak.mitja@gmail.com</string>
+    <string name="razdalja">Razdalja</string>
+    <string name="registracija">Registracija</string>
+    <string name="registriraj_se_">Registriraj se!</string>
+    <string name="spol">Spol</string>
+    <string name="uporabnik_msg">Sem uporabnik aplikacije in bi želel</string>
+    <string name="urejenost">Urejenost</string>
+    <string name="zabava">Zabava</string>
+    <string name="zracna_dst">Zračna distanca</string>
+    <string name="priljubljene">Priljubljene</string>
+    <string name="pridobivanje_pod">Pridobivam podatke</string>
+    <string name="poslji">Pošlji</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="uporabnisko_ime_">"Uporabniško ime: "</string>
+    <string name="gumb_lastnik">Lastnik destinacije</string>
+    <string name="OsiAdrenalin">O siAdrenalin</string>
+    <string name="facebook_share">Deli na Facebook</string>
+    <string name="twitter_share">Deli na Twitter</string>
+    <string name="dodPriljubljenim">Dodano priljubljenim</string>
+    <string name="odsPriljubljenim">Odstranjeno iz priljubljenih</string>
+    <string name="meterMsg">Lastna ocena destinacije, kako adrenalinsko razburljiva je</string>
+    <string name="twitterMsg">Z mobilno aplikacijo siAdrenalin odkrivam adrenalinska doživetja Slovenije!</string>
+    <string name="facebookMsg">Na facebook zid bo deljeno stanje: Z aplikacijo siAdrenalin odkrivam adrenalinska doživetja Slovenije!</string>
+    <string name="pozor">Pozor</string>
+    <string name="playServiceMsg">Nimate posodobljenih storitev Google Play, brez namestitve ne bodo delovali zemljevidi v aplikaciji!</string>
+    <string name="twitterSportMsg">Krasno adrenalinsko doživetje v</string>
+    <string name="telKopiran">Kopirano v odložišče</string>
+    <string name="oddGlas">Svoj glas ste že oddali!</string>
+    <string name="programInfoTitle">Informacije</string>
+    <string name="kontakt_title">Kontakt</string>
+    <string name="off_gps">Nimate vklopljenega GPS sledenja!</string>
+    <string name="cas">Čas</string>
+    <string name="titleOpis">Opis</string>
+    <string name="titleOdpCas">Odpiralni čas</string>
+    <string name="titleCenik">Cenik</string>
+    <string name="noData">Neuspešni prvi zagon - ni internetne povezave. \\nVključite podatkovni prenos in znova zaženite aplikacijo!</string>
+    <string name="titleOcene">Ocene</string>
+</resources>

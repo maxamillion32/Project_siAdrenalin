@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/text_vizitka"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/ShadowOverlayText"
+        android:fontFamily="sans-serif-condensed"
+        android:background="#66B2ff"
+        android:text="@string/programInfo"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/src/main/res/layout/dialog_vizitka.xml -->

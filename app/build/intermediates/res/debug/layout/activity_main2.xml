@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rel_layout_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/header">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_above="@+id/sv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/app_name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            style="@style/ShadowOverlayText"/>
+
+        <TextView
+            android:id="@+id/text_quote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="20sp"
+            style="@style/ShadowOverlayText"/>
+
+        <TextView
+            android:id="@+id/text_quoteAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text=""
+            android:textSize="15sp"
+            style="@style/ShadowOverlayText"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_menu"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/layout_foot"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- En gumb v meniju (Seznam))-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#33B5E5"
+                android:orientation="horizontal"
+                android:onClick="odpriSeznam">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gumb_seznam"
+                    android:paddingLeft="16dp"
+                    android:tint="#ffffff"
+                    android:src="@drawable/seznam"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/seznam" />
+
+            </LinearLayout>
+
+            <!-- Gumb v meniju (Zemljevid)-->
+            <LinearLayout
+                android:id="@+id/layout_zemljevid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#33B5E5"
+                android:orientation="horizontal"
+                android:onClick="odpriKarto">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gumb_zemljevid"
+                    android:paddingLeft="16dp"
+                    android:tint="#ffffff"
+                    android:src="@drawable/zemljevid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/zemljevid" />
+            </LinearLayout>
+
+            <!-- Gumb v meniju (V bližini)-->
+            <LinearLayout
+                android:id="@+id/layout_vblizini"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#33B5E5"
+                android:orientation="horizontal"
+                android:onClick="odpriBlizina">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gumb_vblizini"
+                    android:paddingLeft="16dp"
+                    android:tint="#ffffff"
+                    android:src="@drawable/vblizini"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/blizina" />
+            </LinearLayout>
+
+            <!-- Gumb v meniju (Priljubljene)-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#33B5E5"
+                android:orientation="horizontal"
+                android:onClick="odpriPriljubljene">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gumb_priljubljene"
+                    android:paddingLeft="16dp"
+                    android:tint="#ffffff"
+                    android:src="@drawable/favorite_ikona"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/priljubljene" />
+            </LinearLayout>
+            <!-- Gumb v meniju (O siAdrenalin)-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#33B5E5"
+                android:orientation="horizontal"
+                android:onClick="odpriOsiAdrenalin">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gumb_osiadrenalin"
+                    android:paddingLeft="16dp"
+                    android:tint="#ffffff"
+                    android:src="@drawable/ic_about"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/OsiAdrenalin" />
+            </LinearLayout>
+            <!-- Gumb v meniju (V bližini)-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#33B5E5"
+                android:orientation="horizontal"
+                android:onClick="deliFacebook">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gumb_facebook"
+                    android:paddingLeft="16dp"
+                    android:tint="#ffffff"
+                    android:src="@drawable/ic_action_facebook"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/facebook_share" />
+            </LinearLayout>
+
+            <!-- Gumb v meniju (Twitter)-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#33B5E5"
+                android:orientation="horizontal"
+                android:onClick="deliTwitter">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gumb_twitter"
+                    android:paddingLeft="16dp"
+                    android:tint="#ffffff"
+                    android:src="@drawable/ic_action_twitter"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/twitter_share" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/layout_foot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:background="#0099CC"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="1dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="sans-serif-condensed"
+            android:text="siAdrenalin @ 2015-v1.0"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:gravity="right"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/slovenski"
+            android:onClick="NastaviSlovenski"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/germany"
+            android:onClick="NastaviNemski"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/english"
+            android:onClick="NastaviAngleski"/>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Mitja/AndroidstudioProjects/SiAdrenalin_20_5_2015/app/src/main/res/layout/activity_main2.xml -->
