@@ -1,5 +1,7 @@
 # Project siAdrenalin
-an Android app to explore the adrenaline/extreme sports of Slovenia
+an Android app to explore the adrenaline/extreme sports of Slovenia. Developed in second and third year of college. 
+Published diploma thesis on the research, development, testing and publishing the application can be found here (in Slovenian language):
+https://dk.um.si/IzpisGradiva.php?id=54440&lang=slv
 
 An AndroidStudio project.
 
@@ -11,4 +13,4 @@ Some of the apps main features are:
   defined range. Both use Google API integration. Navigation feature uses Google Directions API, nearby uses the Google Distance Matrix API.
 - Multilingual support (Slovenian, German and English language)
 
-
+The apps Google Play link: https://play.google.com/store/apps/details?id=com.siadrenalin
